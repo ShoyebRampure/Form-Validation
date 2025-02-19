@@ -1,4 +1,4 @@
-# Neon Form Validation
+# Form Validation
 
 A modern, responsive form with real-time validation and sleek neon design aesthetic.
 
