@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Create Account</h1>
+
+            <div class="form-control">
+                <label for="username">Username</label>
+                <div class="input-container">
+                    <input type="text" id="username" placeholder="Enter your username">
+                    <i class="validation-icon"></i>
+                </div>
+                <small class="error"></small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <i class="validation-icon"></i>
+                </div>
+                <small class="error"></small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <i class="icon toggle-password" id="togglePassword">👁️</i>
+                    <i class="validation-icon"></i>
+                </div>
+                <div class="strength-meter">
+                    <span id="strength-bar"></span>
+                </div>
+                <small class="error"></small>
+                <small id="password-strength-text"></small>
+            </div>
+
+            <div class="form-control">
+                <label for="confirm-password">Confirm Password</label>
+                <div class="password-container">
+                    <input type="password" id="confirm-password" placeholder="Confirm your password">
+                    <i class="icon toggle-password" id="toggleConfirmPassword">👁️</i>
+                    <i class="validation-icon"></i>
+                </div>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit" id="btn">Create Account</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
