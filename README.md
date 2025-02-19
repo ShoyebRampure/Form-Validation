@@ -2,8 +2,6 @@
 
 A modern, responsive form with real-time validation and sleek neon design aesthetic.
 
-![Neon Form Validation Screenshot](https://api.placeholder/800/400)
-
 ## Features
 
 - **Real-time Validation**: Instant feedback as users type
@@ -34,12 +32,12 @@ neon-form/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/neon-form-validation.git
+   git clone https://github.com/ShoyebRampure/Form-validation.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd neon-form-validation
+   cd Form-validation
    ```
 
 3. Open `index.html` in your preferred browser.
@@ -108,7 +106,7 @@ MIT License - feel free to use and modify as needed.
 
 - Icons: Native emoji icons
 - Font: Segoe UI
-- Creator: [Your Name]
+- Creator: [Shoyeb Rampure]
 
 ---
 
